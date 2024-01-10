@@ -10,7 +10,7 @@ html, body{
 }
 
 div{
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 #main-container{
@@ -47,6 +47,17 @@ div{
 
 #upper-container{
     height: 33vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+}
+
+#upper-txt{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
 }
 
 #middle-container{
@@ -55,4 +66,6 @@ div{
 
 #botton-container{
     height: 33vh;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
